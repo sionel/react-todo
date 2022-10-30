@@ -18,18 +18,11 @@ class TodoItemList extends Component {
       )
     );
 
-    const arr = [
-      <h1>test1</h1>,
-      <h1>test2</h1>,
-    ]
 
     return (
       <div>
-        {/* {todoList} */}
-        {arr.map(e => {
-          debugger
-          return e
-        })}
+        {todoList}
+
       </div>
     );
   }
